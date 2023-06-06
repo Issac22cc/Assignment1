@@ -1,0 +1,81 @@
+<!-- File name: contact.ejs -->
+<!-- Student name: -->
+<!-- Student ID: -->
+<!-- Date: --><!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title><%=title %>></title>
+    <style>
+    form{
+        text-align: left;
+    }    
+    body{
+        text-align: center;
+        background-color: lightyellow;
+        
+    }
+    #contact1{
+        text-align: left;
+    }
+    #navbar{
+        /* text-decoration: none; */
+        color: black;
+        font-size: large;
+        margin-left: 20px;
+    }
+    .nav-link:hover{
+        background-color: lightblue;
+    }
+    </style>
+</head>
+<body>
+    
+    <img src="img/img 1.png" alt="logo" style="width:160px; height:150px">
+    
+    <div id="navbar">
+        <a class="nav-link active" href="/" id="Home"><i class="fa-solid fa-house"></i>Home</a>
+        <a class="nav-link" href="/about">About</a>
+        <a class="nav-link" href="/contact">Contact</a>
+        <a class="nav-link" href="/products">Product</a>
+        <a class="nav-link" href="/services">Services</a>
+    </div>
+    <h1>Welcome to the <%=title %> page</h1>
+    <div id="contact1">
+        <h2>Contact information:</h2>
+        <h3>...</h3>
+        <h2>Contact form:</h2>
+    </div>
+    <form action="/#">
+
+        <div>
+            <label for="fname">First name:</label>
+            <input type="text" id="fname" name="fname" placeholder="Your first name">
+        </div>
+        <br>
+        <div>
+            <label for="lname">Last name:</label>
+            <input type="text" id="lname" name="lname" placeholder="Your last name">
+        </div>
+        <br>
+        <div>
+            <label for="contactNumber">Contact number:</label>
+            <input type="text" id="contactNum" name="contactNum" placeholder="(XXX) XXX-XXXX">
+        </div>
+        <br>
+        <div>
+            <label for="emailAddress">Email address:</label>
+            <input type="text" id="emailAddress" name="emailAddress" placeholder="aaa@aaa.com">
+        </div>
+        <br>
+        <div>
+            <label for="message">Additional information and message:</label>
+            <br>
+            <textarea  id="message"  rows="10" style="width: 300px; height: 200px;"></textarea>
+        </div>
+        <button type="submit" >Submit</button>
+    </form>
+</body>
+</html>

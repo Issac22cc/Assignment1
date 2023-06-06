@@ -1,0 +1,61 @@
+<!-- File name: products.ejs -->
+<!-- Student name: -->
+<!-- Student ID: -->
+<!-- Date: -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title><%=title %>></title>
+    <style>
+    body{
+        text-align: center;
+        background-color: lightyellow;
+    }
+    #main{
+        text-align: left;
+        margin-right: 500px;
+    }
+    #foodApp{
+        width: 100px;
+        height: 100px;
+    }
+    #bugSmasher{
+        width:100px;
+        height: 120px;
+    }
+    #navbar{
+        /* text-decoration: none; */
+        color: black;
+        font-size: large;
+        margin-left: 20px;
+    }
+    .nav-link:hover{
+        background-color: lightblue;
+    }
+    </style>
+</head>
+<body>
+    
+    <img src="img/img 1.png" alt="logo" style="width:160px; height:150px">
+    <div id="navbar">
+    <a class="nav-link active" href="/" id="Home"><i class="fa-solid fa-house"></i>Home</a>
+    <a class="nav-link" href="/about">About</a>
+    <a class="nav-link" href="/contact">Contact</a>
+    <a class="nav-link" href="/products">Product</a>
+    <a class="nav-link" href="/services">Services</a>
+    </div>
+    <h1>Welcome to the Projects page</h1>
+    <div id="main">
+    <h2>Projects list:</h2>
+    <h3>Project 1 : Better Life <img src="https://cdn-icons-png.flaticon.com/128/2773/2773104.png" alt="betterLife"></h3>
+    <h3>Description: This is a software to help people to main health life better. The main function is to remind user to drink water based on the time set by the user and give different relax or excercise tips for the users.</h3>
+    <h3>Project 2 : Quick Food <img src="https://cdn-icons-png.flaticon.com/512/7217/7217494.png" alt="foodDelivery" id="foodApp"></h3>
+    <h3>Description: This is a food delivery app and the main function is to providing a convenient way for the user to order food that's delivered to their doorstep</h3>
+    <h3>Project 3: Bug smasher <img src="https://play-lh.googleusercontent.com/6zZmsX5dGcFeQ5LfiCUan00qwiFy7iwaq4bDcQgt3nmDe3YPIdxrWwfehyE6Z5t5Fw" alt="bugSmasher" id="bugSmasher"></h3>
+    <h3>Description: This is a simple bug smasher game but I changed another cute icon and set another exciting mode for challenge</h3>
+    </div>
+</body>
+</html>
