@@ -1,13 +1,14 @@
 <!-- File name: contact.ejs -->
-<!-- Student name: -->
-<!-- Student ID: -->
-<!-- Date: --><!DOCTYPE html>
+<!-- Student name: Lok Fung Leung-->
+<!-- Student ID: 301267121-->
+<!-- Date: 7-6-2023 -->
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title><%=title %>></title>
+    <title><%=title %></title>
     <style>
     form{
         text-align: left;
@@ -29,23 +30,23 @@
     .nav-link:hover{
         background-color: lightblue;
     }
+    h1{
+        text-align: center;
+    }
     </style>
 </head>
+
+<%- include('partials/header.ejs') %>
+
+<%- include('partials/main_nav.ejs') %>
+
 <body>
-    
-    <img src="img/img 1.png" alt="logo" style="width:160px; height:150px">
-    
-    <div id="navbar">
-        <a class="nav-link active" href="/" id="Home"><i class="fa-solid fa-house"></i>Home</a>
-        <a class="nav-link" href="/about">About</a>
-        <a class="nav-link" href="/contact">Contact</a>
-        <a class="nav-link" href="/products">Product</a>
-        <a class="nav-link" href="/services">Services</a>
-    </div>
+   
     <h1>Welcome to the <%=title %> page</h1>
     <div id="contact1">
         <h2>Contact information:</h2>
-        <h3>...</h3>
+        <h4>Email: AAA@aa.email.ca</h4>
+        <h4>Contact number: (123) 123-4567</h4>
         <h2>Contact form:</h2>
     </div>
     <form action="/#">
