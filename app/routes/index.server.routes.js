@@ -1,7 +1,4 @@
-// File name: index.server.routes.js
-// Student name: Lok Fung Leung
-// Student ID: 301267121
-// Date: 7-6-2023 
+
 
 var express = require('express');
 var router = express.Router();
